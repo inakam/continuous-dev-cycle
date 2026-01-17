@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Self-sustaining development cycle that integrates planning-with-files and ralph-loop. Automatically plans, executes with ralph-loop, commits progress, and proposes expansions forever.",
   "author": {
-    "name": "ibuki-nakamura"
+    "name": "inakam"
   },
-  "homepage": "https://github.com/ibuki-nakamura/continuous-dev-cycle",
-  "repository": "https://github.com/ibuki-nakamura/continuous-dev-cycle",
+  "homepage": "https://github.com/inakam/continuous-dev-cycle",
+  "repository": "https://github.com/inakam/continuous-dev-cycle",
   "license": "MIT"
 }

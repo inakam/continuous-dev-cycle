@@ -272,7 +272,7 @@ started_at: 2026-01-17T23:00:00+00:00
 ### From Marketplace (Coming Soon)
 
 ```bash
-/plugin marketplace add ibuki-nakamura/continuous-dev-cycle
+/plugin marketplace add inakam/continuous-dev-cycle
 /plugin install continuous-dev-cycle@continuous-dev-cycle
 ```
 
@@ -280,7 +280,7 @@ started_at: 2026-01-17T23:00:00+00:00
 
 ```bash
 # Clone the repository
-git clone https://github.com/ibuki-nakamura/continuous-dev-cycle.git ~/.claude/plugins/continuous-dev-cycle
+git clone https://github.com/inakam/continuous-dev-cycle.git ~/.claude/plugins/continuous-dev-cycle
 
 # Or add to your plugin marketplace list
 ```
@@ -418,7 +418,7 @@ MIT License - feel free to use, modify, and distribute.
 
 ## Author
 
-ibuki-nakamura
+inakam
 
 ## Version
 
