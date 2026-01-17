@@ -12,25 +12,6 @@ allowed-tools:
   - Grep
   - WebFetch
   - WebSearch
-hooks:
-  SessionStart:
-    - hooks:
-        - type: command
-          command: "if [ -f .claude/continuous-dev.local.md ]; then echo '[continuous-dev-cycle] Active cycle detected. Type /cancel-continuous-dev to stop.'; fi"
-  PreToolUse:
-    - matcher: "Write|Edit|Bash"
-      hooks:
-        - type: command
-          command: "if [ -f task_plan.md ]; then cat task_plan.md | head -40 || true; fi"
-  PostToolUse:
-    - matcher: "Write|Edit"
-      hooks:
-        - type: command
-          command: "${CLAUDE_PLUGIN_ROOT}/scripts/auto-commit.sh"
-  Stop:
-    - hooks:
-        - type: command
-          command: "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
 ---
 
 # Continuous Development Cycle
