@@ -1,0 +1,26 @@
+{
+  "name": "continuous-dev-plugins",
+  "owner": {
+    "name": "inakam"
+  },
+  "metadata": {
+    "description": "Continuous development cycle plugins for autonomous planning and execution",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "continuous-dev-cycle",
+      "source": "./",
+      "description": "Self-sustaining development cycle that integrates planning-with-files and ralph-loop. Automatically plans, executes with ralph-loop, commits progress, and proposes expansions forever.",
+      "version": "0.1.0",
+      "author": {
+        "name": "inakam"
+      },
+      "homepage": "https://github.com/inakam/continuous-dev-cycle",
+      "repository": "https://github.com/inakam/continuous-dev-cycle",
+      "license": "MIT",
+      "keywords": ["continuous", "development", "automation", "planning", "ralph-loop"],
+      "category": "productivity"
+    }
+  ]
+}
